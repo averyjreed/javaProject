@@ -38,6 +38,7 @@ public class EmployeePage extends javax.swing.JFrame {
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
+        jLabel4 = new javax.swing.JLabel();
         jMenuBar1 = new javax.swing.JMenuBar();
         homemenu = new javax.swing.JMenu();
         employeemenu = new javax.swing.JMenu();
@@ -47,7 +48,6 @@ public class EmployeePage extends javax.swing.JFrame {
         close = new javax.swing.JMenu();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
-        setPreferredSize(new java.awt.Dimension(900, 600));
 
         jLabel1.setFont(new java.awt.Font("American Typewriter", 0, 13)); // NOI18N
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -57,6 +57,8 @@ public class EmployeePage extends javax.swing.JFrame {
         jLabel2.setText("fefefkep");
 
         jLabel3.setText("poop");
+
+        jLabel4.setText("jfkld");
 
         homemenu.setText("Home");
         homemenu.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -132,7 +134,10 @@ public class EmployeePage extends javax.swing.JFrame {
                         .addComponent(jLabel2))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(152, 152, 152)
-                        .addComponent(jLabel3)))
+                        .addComponent(jLabel3))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(60, 60, 60)
+                        .addComponent(jLabel4)))
                 .addContainerGap(629, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
@@ -144,7 +149,9 @@ public class EmployeePage extends javax.swing.JFrame {
                 .addComponent(jLabel2)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jLabel3)
-                .addContainerGap(480, Short.MAX_VALUE))
+                .addGap(33, 33, 33)
+                .addComponent(jLabel4)
+                .addContainerGap(431, Short.MAX_VALUE))
         );
 
         pack();
@@ -235,6 +242,7 @@ public class EmployeePage extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
     private javax.swing.JMenuBar jMenuBar1;
     private javax.swing.JMenu payrollmenu;
     // End of variables declaration//GEN-END:variables
