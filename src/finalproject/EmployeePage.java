@@ -58,7 +58,11 @@ public class EmployeePage extends javax.swing.JFrame {
 
         jLabel3.setText("jLabel3");
 
+<<<<<<< HEAD
         jLabel4.setText("this will not get deleted");
+=======
+        jLabel4.setText("test");
+>>>>>>> 89059665d3f9338a07f53ca7ab2b39d9e798459d
 
         homemenu.setText("Home");
         homemenu.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -134,12 +138,20 @@ public class EmployeePage extends javax.swing.JFrame {
                         .addComponent(jLabel2))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(226, 226, 226)
+<<<<<<< HEAD
                         .addComponent(jLabel3)))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addGap(0, 398, Short.MAX_VALUE)
                 .addComponent(jLabel4)
                 .addGap(353, 353, 353))
+=======
+                        .addComponent(jLabel3))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(37, 37, 37)
+                        .addComponent(jLabel4)))
+                .addContainerGap(566, Short.MAX_VALUE))
+>>>>>>> 89059665d3f9338a07f53ca7ab2b39d9e798459d
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -148,9 +160,15 @@ public class EmployeePage extends javax.swing.JFrame {
                 .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(74, 74, 74)
                 .addComponent(jLabel2)
+<<<<<<< HEAD
                 .addGap(50, 50, 50)
                 .addComponent(jLabel4)
                 .addGap(46, 46, 46)
+=======
+                .addGap(44, 44, 44)
+                .addComponent(jLabel4)
+                .addGap(52, 52, 52)
+>>>>>>> 89059665d3f9338a07f53ca7ab2b39d9e798459d
                 .addComponent(jLabel3)
                 .addContainerGap(318, Short.MAX_VALUE))
         );
