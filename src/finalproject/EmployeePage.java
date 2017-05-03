@@ -52,7 +52,7 @@ public class EmployeePage extends javax.swing.JFrame {
         jLabel1.setText("Reed-Bentley Construction Employees");
         jLabel1.setPreferredSize(new java.awt.Dimension(600, 600));
 
-        jLabel2.setText("jLabel2");
+        jLabel2.setText("Averyyyyyyyyyy");
 
         homemenu.setText("Home");
         homemenu.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -124,18 +124,18 @@ public class EmployeePage extends javax.swing.JFrame {
                         .addGap(16, 16, 16)
                         .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 255, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(layout.createSequentialGroup()
-                        .addGap(67, 67, 67)
+                        .addGap(236, 236, 236)
                         .addComponent(jLabel2)))
-                .addContainerGap(629, Short.MAX_VALUE))
+                .addContainerGap(566, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(55, 55, 55)
+                .addGap(74, 74, 74)
                 .addComponent(jLabel2)
-                .addContainerGap(465, Short.MAX_VALUE))
+                .addContainerGap(446, Short.MAX_VALUE))
         );
 
         pack();
