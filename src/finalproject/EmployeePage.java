@@ -38,6 +38,7 @@ public class EmployeePage extends javax.swing.JFrame {
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
+        jLabel4 = new javax.swing.JLabel();
         jMenuBar1 = new javax.swing.JMenuBar();
         homemenu = new javax.swing.JMenu();
         employeemenu = new javax.swing.JMenu();
@@ -56,6 +57,8 @@ public class EmployeePage extends javax.swing.JFrame {
         jLabel2.setText("Averyyyyyyyyyy");
 
         jLabel3.setText("jLabel3");
+
+        jLabel4.setText("test");
 
         homemenu.setText("Home");
         homemenu.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -131,7 +134,10 @@ public class EmployeePage extends javax.swing.JFrame {
                         .addComponent(jLabel2))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(226, 226, 226)
-                        .addComponent(jLabel3)))
+                        .addComponent(jLabel3))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(37, 37, 37)
+                        .addComponent(jLabel4)))
                 .addContainerGap(566, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
@@ -141,7 +147,9 @@ public class EmployeePage extends javax.swing.JFrame {
                 .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(74, 74, 74)
                 .addComponent(jLabel2)
-                .addGap(112, 112, 112)
+                .addGap(44, 44, 44)
+                .addComponent(jLabel4)
+                .addGap(52, 52, 52)
                 .addComponent(jLabel3)
                 .addContainerGap(318, Short.MAX_VALUE))
         );
@@ -234,6 +242,7 @@ public class EmployeePage extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
     private javax.swing.JMenuBar jMenuBar1;
     private javax.swing.JMenu payrollmenu;
     // End of variables declaration//GEN-END:variables
